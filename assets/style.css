@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    font-family:Segoe UI;
+    background:linear-gradient(135deg,#141e30,#243b55);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    color:white;
+}
+
+.card{
+    background:rgba(255,255,255,0.05);
+    padding:40px;
+    border-radius:15px;
+    backdrop-filter:blur(10px);
+    text-align:center;
+    width:400px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.5);
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    border-radius:5px;
+    border:none;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin-top:15px;
+    border:none;
+    border-radius:5px;
+    background:#00c6ff;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0099cc;
+}
